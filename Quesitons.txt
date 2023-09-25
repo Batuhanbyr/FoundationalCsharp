@@ -832,3 +832,17 @@ Debugging provides suggestions for code improvements and optimizations.
 
 Debugging provides detailed documentation on how the code works.
 ----------------------------------------------------------------------------------------
+What is the lifetime of a variable declared inside a code block in C#?
+
+The lifetime is determined by the accessibility of the variable.
+
+The lifetime is unlimited.
+
+The lifetime is tied to the duration of the program.
+
+The lifetime is determined by the operating system.
+
+The lifetime is limited to the scope of the code block. (T)
+----------------------------------------------------------------------------------------
+
+
