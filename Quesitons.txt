@@ -1,0 +1,834 @@
+How do you catch a thrown exception in a calling code in C#?
+
+
+Use the OnException event handler.
+
+Use the try-catch block and specify the appropriate exception type to catch.
+
+Use the HandleException() method.
+
+Use the try-catch block without specifying an exception type.
+
+Use the try-catch-finally statement.
+
+----------------------------------------------------------------------------------------
+
+What will be the output of the following code snippet?
+
+int dayOfWeek = 3;
+string dayName;
+
+switch (dayOfWeek)
+{
+    case 1:
+        dayName = "Monday";
+        break;
+    case 2:
+        dayName = "Tuesday";
+        break;
+    default:
+        dayName = "Unknown";
+        break;
+}
+
+Console.WriteLine(dayName);
+
+----------------------------------------------------------------------------------------
+How do you exit a for loop before its completion in C#?
+
+
+return;
+
+stop;
+
+skip;
+
+break; (T)
+
+exit;
+
+----------------------------------------------------------------------------------------
+
+What is the purpose of the using directive in C#?
+
+
+It is used to perform arithmetic operations.
+
+It is used to define loops.
+
+It is used to access databases.
+
+It is used to declare variables.
+
+It is used to import namespaces. (T)
+----------------------------------------------------------------------------------------
+How do you ensure that a while loop is executed at least once in C#?
+
+
+By using the break statement inside the loop.
+
+By enclosing the loop code in a try-catch block.
+
+By setting the condition to true. (T)
+
+By enclosing the loop code in an if statement.
+
+By setting the condition to false.
+----------------------------------------------------------------------------------------
+What happens if the condition of a while loop is initially false in C#?
+
+
+The loop waits for the condition to become true.
+
+The loop executes indefinitely.
+
+The loop is skipped entirely. (T)
+
+The loop executes backwards.
+
+An error is thrown by the compiler.
+----------------------------------------------------------------------------------------
+What is the default value of an uninitialized variable of type string in C#?
+
+
+false
+
+"null"
+
+"NaN"
+
+null (T)
+
+"undefined"
+----------------------------------------------------------------------------------------
+How do you inspect the value of a variable during debugging in Visual Studio Code?
+
+
+Select the variable and press F12 to view its value.
+
+Hover the mouse cursor over the variable to see its value. (T)
+
+Use the shortcut Ctrl+Shift+I to inspect the variable.
+
+Place a mouse cursor on the variable while debugging.
+
+Right-click on the variable and select Inspect Value.
+----------------------------------------------------------------------------------------
+What is the purpose of the IndexOf method in the String class in C#?
+
+
+It retrieves the index of a specified character in the string. (T)
+
+It returns the length of the string.
+
+It checks if a string contains a specified substring.
+
+It returns the last occurrence of a character in the string.
+
+It replaces a specified character with another character in the string.
+----------------------------------------------------------------------------------------
+How can you install extensions in Visual Studio Code?
+
+
+Press the "F2" key and type "Install Extensions"
+
+Right-click on the editor and choose "Install Extensions"
+
+Click on the square icon on the left sidebar or press "Ctrl + Shift + X" (T)
+
+Go to the "Extensions" menu and select "Install Extensions"
+
+Navigate to the "Go" menu and select "Extensions"
+----------------------------------------------------------------------------------------
+How do you add a multi-line comment in C#?
+
+
+%% This is a multi-line comment %%
+
+/* This is a multi-line comment */ (T)
+
+<!-- This is a multi-line comment -->
+
+// This is a multi-line comment
+
+** This is a multi-line comment **
+----------------------------------------------------------------------------------------
+Given the following code snippet, which data type would be the most appropriate for storing the result of dividing x by y?
+
+int x = 5;
+double y = 2.7;
+
+decimal
+
+int
+
+double (T)
+
+char
+
+long
+----------------------------------------------------------------------------------------
+
+How do you format a string to include a decimal number with two digits after the decimal point in C#?
+
+
+number.ToString("D2")
+
+string.Format("{0:F2}", number)
+
+number.ToString("F2") (T)
+
+number.ToString("N2")
+
+String.Format("{0:00}", number)
+----------------------------------------------------------------------------------------
+Given the following code snippet, what is the purpose of the parameter name in the method GreetUser()?
+
+public void GreetUser(string name) {
+    Console.WriteLine("Hello, " + name + "!");
+}
+
+The parameter name is used to specify the return type of the method.
+
+The parameter name is used to create an instance of the class.
+
+The parameter name is used to specify the number of times the method should be executed.
+
+The parameter name is not used in the method.
+
+The parameter name is used to pass a string value to the method (T)
+----------------------------------------------------------------------------------------
+In C#, how do you call a method from the Main method and capture its returned value?
+
+
+result = methodName(); (T)
+
+Main.methodName();
+
+methodName;
+
+methodName();
+
+methodName;
+----------------------------------------------------------------------------------------
+What is the value of the Boolean expression: !(true && false)?
+
+
+true (T)
+
+0
+
+"false"
+
+null
+
+"true"
+----------------------------------------------------------------------------------------
+How do you pass a value to a method parameter in C#?
+
+
+Provide the value as an argument when calling the method. (T)
+
+Use the out keyword before the value.
+
+Use the pass keyword before the value.
+
+Use the this keyword before the value.
+
+Use the in keyword before the value.
+----------------------------------------------------------------------------------------
+What is the output of the following code snippet?
+
+int x = 5;
+int y = 3;
+int result = x + y;
+Console.WriteLine(result);
+
+2
+
+35
+
+8 (T)
+
+53
+----------------------------------------------------------------------------------------
+Which data type is valid as an expression in a switch statement in C#?
+
+
+double
+
+bool
+
+int (T)
+
+int[]
+
+object
+----------------------------------------------------------------------------------------
+How do you catch multiple types of exceptions in a single catch block in C#?
+
+
+catch (ExceptionType1 || ExceptionType2 exception)
+
+catch (ExceptionType1 exception, ExceptionType2 exception)
+
+catch (ExceptionType1 & ExceptionType2 exception)
+
+catch (ExceptionType1 | ExceptionType2 exception)
+
+catch (ExceptionType1 exception) when (exception is ExceptionType2) (T)
+----------------------------------------------------------------------------------------
+How do you open the integrated terminal in Visual Studio Code?
+
+
+Click "Terminal" and select "New Terminal"
+
+Navigate to the "View" menu and select "Terminal"
+
+Press the "F1" key and type "Open Terminal" (T)
+
+Click on the "Output" tab and select "Terminal"
+
+Right-click on the editor and select "Open Terminal"
+----------------------------------------------------------------------------------------
+Which of the following options represents the correct way to calculate the remainder of dividing two integers?
+
+
+Math.Remainder(x, y)
+
+x % (y - 1)
+
+x % y (T)
+
+Math.Mod(x, y)
+
+x.Remainder(y)
+----------------------------------------------------------------------------------------
+How do you convert a string variable to an integer in C#?
+
+
+(int)variable;
+
+int.Parse(variable);
+
+int.TryParse(variable);
+
+Convert.ToInt32(variable);
+
+variable.ConvertToInt();
+----------------------------------------------------------------------------------------
+How do you format a date value to display only the month and year in C#?
+
+
+date.ToString("mm/yyyy")
+
+date.ToString("MM/yy")
+
+date.ToString("dd/yyyy")
+
+date.ToString("yyyy/MM")
+
+date.ToString("MM/yyyy") (T)
+----------------------------------------------------------------------------------------
+What is the purpose of try-catch blocks in C#?
+
+
+To define custom exception classes.
+
+To prevent errors from occurring.
+
+To handle and manage exceptions. (T)
+
+To execute code repeatedly.
+
+To validate user input.
+----------------------------------------------------------------------------------------
+What is the purpose of the foreach statement in C#?
+
+
+Checking a condition and executing code based on the result.
+
+Defining a method or function.
+
+Iterating over a sequence of numbers.
+
+Reading input from the console.
+
+Iterating over elements in a collection. (T)
+----------------------------------------------------------------------------------------
+What is the correct syntax to declare a variable named count of type integer in C#?
+
+
+set count;
+
+int count; (T)
+
+declare count as integer;
+
+variable count = int;
+
+integer count;
+----------------------------------------------------------------------------------------
+How do you specify a custom error message when throwing an exception in C#?
+
+
+Use the InnerException property of the Exception class.
+
+Set the Message property of the Exception class.
+
+Assign the error message directly to the Exception object.
+
+Pass the error message as a parameter to the Exception constructor.
+
+Use the ErrorMessage property of the Exception class.
+----------------------------------------------------------------------------------------
+How do you call a method with parameters from the Main method in C#?
+
+
+Use the 'invoke' keyword before the method name.
+
+Use the 'execute' keyword before the method name.
+
+Use the 'run' keyword before the method name.
+
+Separate the method name and parameters with a colon.
+
+Specify the method name followed by the arguments enclosed in parentheses (T)
+----------------------------------------------------------------------------------------
+How do you define a method with multiple parameters in C#?
+
+
+Use the 'param' keyword before each parameter.
+
+Separate the parameters with the 'and' keyword.
+
+Use semicolons to separate the parameters.
+
+Specify the parameters separated by commas. (T)
+
+Enclose the parameters in square brackets.
+----------------------------------------------------------------------------------------
+hat is the purpose of conditional statements in C#?
+
+
+Repeat code execution
+
+Create graphical user interfaces
+
+Calculate complex formulas
+
+Control the flow of the program (T)
+
+Load external libraries
+----------------------------------------------------------------------------------------
+What is the difference between the operators ++ and -- in C#?
+
+
+++ increments the value of a variable by 1, while -- increments it by 1. (T)
+
+There is no difference; they both increment the value of a variable by 1.
+
+++ increments the value of a variable by 1, while -- does nothing.
+
+++ increments the value of a variable by 1, while -- decrements it by 1.
+
+++ increments the value of a variable by 2, while -- decrements it by 2.
+----------------------------------------------------------------------------------------
+What is the purpose of the Main method in a C# console application?
+
+
+It is responsible for handling user input.
+
+It is used for error handling and exception catching.
+
+It is the entry point of the application. (T)
+
+It is used to display messages on the console.
+
+It is used to define classes and objects.
+----------------------------------------------------------------------------------------
+How do you convert an integer variable named age to a string in C#?
+
+
+Convert.ToString(age) (T)
+
+age.ToString("D")
+
+Convert.ToInt32(age)
+
+string.Parse(age)
+
+age.ToString()
+----------------------------------------------------------------------------------------
+How do you negate a Boolean value in C#?
+
+
+||
+
+and
+
+&
+
+! (T)
+
+xor
+----------------------------------------------------------------------------------------
+Given the following code snippet, what technique is used to convert the double value b to an int in the code below?
+
+int a = 10;
+double b = 3.14;
+int result = a / (int)b;
+
+Implicit casting.
+
+Parsing.
+
+Explicit casting. (T)
+
+Type conversion.
+
+Type casting.
+----------------------------------------------------------------------------------------
+Given the following code snippet, what method can be used to concatenate all the elements in the names array into a single string?
+
+string[] names = { "Alice", "Bob", "Charlie" };
+
+string.Combine(names)
+
+string.Concatenate(names)
+
+names.Combine()
+
+string.Join(names)
+
+string.Join(" ", names) (T)
+----------------------------------------------------------------------------------------
+What will be the output of the following code snippet?
+
+int y = 5;
+void PrintValue()
+{
+    int y = 10;
+    Console.WriteLine(y);
+}
+PrintValue();
+
+15
+
+10 (T)
+
+Undefined
+
+Compiler error.
+
+0
+----------------------------------------------------------------------------------------
+How do you handle an exception in C# using a catch block?
+
+
+catch (Exception e) { } (T)
+
+catch (var e) { }
+
+using (catch)
+
+handle (Exception e) { }
+
+catch Exception e { }
+----------------------------------------------------------------------------------------
+What is the role of the finally block in exception handling in C#?
+
+
+It is used to clean up resources. (T)
+
+It is used to handle successful code execution.
+
+It is used to prevent exceptions.
+
+It is used to repeat code execution.
+
+It is used to catch exceptions.
+----------------------------------------------------------------------------------------
+Which file extension is commonly used for C# source code files in Visual Studio Code?
+
+
+.cs (T)
+
+.py
+
+.docx
+
+.exe
+
+.cp
+----------------------------------------------------------------------------------------
+What is a method in C#?
+
+
+A conditional statement.
+
+A data type.
+
+A sequence of code statements. (T)
+
+A loop construct.
+
+A comment.
+----------------------------------------------------------------------------------------
+How do you call a method named PrintMessage from the Main method in C#?
+
+
+call PrintMessage();
+
+PrintMessage.method();
+
+PrintMessage(); (T)
+
+PrintMessage.method;
+
+run PrintMessage();
+----------------------------------------------------------------------------------------
+What feature in Visual Studio helps identify the value of a variable during debugging?
+
+
+Code Snippets.
+
+CodeLens.
+
+Locals window. (T)
+
+Refactoring.
+
+Syntax Highlighting.
+----------------------------------------------------------------------------------------
+How do you write an else statement in C#?
+
+
+elseif (condition)
+
+else condition
+
+else_if (condition)
+
+otherwise
+
+else (T)
+----------------------------------------------------------------------------------------
+Which method is used to concatenate strings in C#?
+
+
+Combine()
+
+Concatenate()
+
+Merge()
+
+Add()
+
+Concat() (T)
+----------------------------------------------------------------------------------------
+How do you sort the elements of an array in ascending order in C#?
+
+
+arrayName.sortAscending()
+
+Array.Sort(arrayName) (T)
+
+ascendingSort(arrayName)
+
+sortAscending(arrayName)
+
+sort(arrayName, ascending)
+----------------------------------------------------------------------------------------
+What happens if there is no break statement in a case block of a switch statement in C#?
+
+
+The case block continues executing. (T)
+
+The switch statement is ignored.
+
+The program crashes.
+
+An error is thrown.
+
+The default case is executed.
+----------------------------------------------------------------------------------------
+What happens if an exception is thrown inside a catch block in C#?
+
+
+The program crashes.
+
+The catch block is executed again.
+
+The exception is propagated to the calling code. (T)
+
+The exception is ignored.
+
+The program enters an infinite loop.
+----------------------------------------------------------------------------------------
+What is the purpose of the Step Over debugging command in Visual Studio Code?
+
+
+It resumes the program execution until the next breakpoint is reached.
+
+It executes the code without stepping into any function or method calls. (T)
+
+It enables you to step through the code line by line.
+
+It allows you to step into a function or method.
+
+It skips a specific number of lines in the code.
+----------------------------------------------------------------------------------------
+Which keyword is used to define the entry point of a C# program?
+
+
+program
+
+main (T)
+
+begin
+
+execute
+
+start
+----------------------------------------------------------------------------------------
+What is the difference between implicit casting and explicit casting in C#?
+
+
+Implicit casting requires a cast operator, while explicit casting does not.
+
+Implicit casting is done automatically by the compiler, while explicit casting requires manual intervention. (T)
+
+Implicit casting is performed using the Convert class, while explicit casting is performed using the Cast method.
+
+Implicit casting is used for converting between compatible data types, while explicit casting is used for incompatible data types.
+
+Implicit casting can only be performed on value types, while explicit casting can be performed on both value types and reference types.
+----------------------------------------------------------------------------------------
+What happens to a variable declared outside of a code block when the block is executed in C#?
+
+
+The variable's scope expands to the entire program.
+
+The variable is automatically garbage collected.
+
+The variable's value is set to null.
+
+The variable remains accessible and retains its value. (T)
+
+The variable becomes inaccessible.
+----------------------------------------------------------------------------------------
+Which symbol is used for concatenation of strings in C#?
+
+
+@
+
++ (T)
+
+#
+
+&
+
+^
+----------------------------------------------------------------------------------------
+How do you define a method in C#?
+
+
+methodName(parameters) { ... }
+
+methodName(parameters) -> { ... }
+
+void methodName(parameters) => { ... }
+
+methodName(parameters) => { ... }
+
+returnType methodName(parameters) { ... } (T)
+----------------------------------------------------------------------------------------
+What is the purpose of throwing an exception in C#?
+
+
+To enhance code readability.
+
+To handle normal program flow.
+
+To suppress error messages.
+
+To indicate that an error or exceptional condition has occurred. (T)
+
+To terminate the program execution immediately.
+----------------------------------------------------------------------------------------
+What is the purpose of the placeholder {0} in a formatted string in C#?
+
+
+It represents the number of characters to align in a formatted string.
+
+It represents the number of times a string should be repeated.
+
+It specifies the index of the first element in an array.
+
+It indicates the maximum length of a string.
+
+It denotes the position of the argument within the format method. (T)
+----------------------------------------------------------------------------------------
+What will be the output of the following code snippet?
+
+for (int i = 1; i < 5; i++) {
+    Console.WriteLine(i);
+}
+1
+2
+3
+4
+----------------------------------------------------------------------------------------
+What is an exception in C#?
+
+
+An exception is a method that converts one data type to another.
+
+An exception is a data structure used to store multiple values.
+
+An exception is a control statement that alters the flow of program execution.
+
+An exception is an unexpected event or error that occurs during program execution. (T)
+
+An exception is a keyword used to define a variable with a specific data type.
+----------------------------------------------------------------------------------------
+What is the purpose of debugging in software development?
+
+
+Debugging is the process of identifying and resolving errors, bugs, and issues in the code. (T)
+
+Debugging is used to create a backup copy of the code.
+
+Debugging is used to generate documentation for the code.
+
+Debugging is a technique to encrypt the code and protect it from unauthorized access.
+
+Debugging is the process of compiling the code to machine language.
+----------------------------------------------------------------------------------------
+Which line of code will correctly invoke the GreetUser method in C#?
+
+
+GreetUser.Method();
+
+call GreetUser();
+
+execute GreetUser();
+
+GreetUser.invoke();
+
+GreetUser(); (T)
+----------------------------------------------------------------------------------------
+How does debugging help in finding and fixing issues in code?
+
+
+Debugging allows developers to modify the code directly in the production environment.
+
+Debugging allows developers to step through the code and track the flow of execution. (T)
+
+Debugging highlights syntax errors in the code.
+
+Debugging provides suggestions for code improvements and optimizations.
+
+Debugging provides detailed documentation on how the code works.
+----------------------------------------------------------------------------------------
